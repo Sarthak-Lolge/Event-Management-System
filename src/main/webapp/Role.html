@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Select Role - Evenza</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+  <div class="text-center">
+    <h1 class="text-3xl font-bold text-gray-800 mb-10">Select Your Role</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto px-6">
+      
+      <!-- Organizer Box -->
+      <a href="OrganizerSession" class="bg-white rounded-2xl shadow-lg p-10 hover:shadow-2xl transform hover:-translate-y-1 transition cursor-pointer text-center">
+        <img src="https://img.icons8.com/ios-filled/100/event-accepted.png" class="mx-auto mb-4" alt="Organizer">
+        <h2 class="text-xl font-semibold text-gray-800">Organizer</h2>
+        <p class="text-gray-500 text-sm mt-2">Plan and manage events with full control</p>
+      </a>
+
+      <!-- Attendee Box -->
+      <a href="Attendee.jsp" class="bg-white rounded-2xl shadow-lg p-10 hover:shadow-2xl transform hover:-translate-y-1 transition cursor-pointer text-center">
+        <img src="https://img.icons8.com/ios-filled/100/conference-call.png" class="mx-auto mb-4" alt="Attendee">
+        <h2 class="text-xl font-semibold text-gray-800">Attendee</h2>
+        <p class="text-gray-500 text-sm mt-2">Browse and join events as a guest</p>
+      </a>
+
+      <!-- Admin Box -->
+      <a href="AdminLogin.html" class="bg-white rounded-2xl shadow-lg p-10 hover:shadow-2xl transform hover:-translate-y-1 transition cursor-pointer text-center">
+        <img src="https://img.icons8.com/ios-filled/100/admin-settings-male.png" class="mx-auto mb-4" alt="Admin">
+        <h2 class="text-xl font-semibold text-gray-800">Admin</h2>
+        <p class="text-gray-500 text-sm mt-2">Manage users, events, and system settings</p>
+      </a>
+
+    </div>
+  </div>
+
+</body>
+</html>
